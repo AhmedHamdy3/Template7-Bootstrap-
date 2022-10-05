@@ -1,0 +1,213 @@
+nav .navbar-collapse{
+    justify-content: flex-end;
+    color:white;
+}  
+
+/* landing */
+.landing{
+    background: url(../images/bg-masthead.jpg) no-repeat center center scroll; 
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+.landing .overlay{
+    position:absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.landing .container .text h1{
+    letter-spacing: 0.8rem;
+    line-height: 2.5rem;
+    font-size: 2.5rem;
+    color: #b0b0b0;
+    /* background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0)); */
+}
+.landing .container .text p{
+    font-size:1rem;    
+}
+.landing .container .text button{
+    background-color: #64a19d;
+}
+@media (max-width:767px) {
+    .landing .container .text h1{
+        letter-spacing: 0.6rem;
+        line-height: 2rem;
+        font-size: 2rem;
+    }
+    .landing .container .text p{
+        font-size:0.9rem;    
+    }
+}
+
+
+/* box */
+.box{
+    height: 500px;
+    background-image: linear-gradient( to bottom,black,rgba(0,0,0,0.85));
+    color:white;
+    position:relative;
+    top:-1px;
+    overflow: hidden;;
+}
+.box .text p{
+    max-width:800px;
+    margin: auto;
+
+}
+.box .text a{
+    color:#64a19d;
+}
+
+/* lala */
+.lala{
+    margin-top:80px;
+}
+.lala .car{
+    margin-bottom: 26px;
+}
+.lala .container .images{
+    padding-right: 30px;;
+}
+.lala .container .car .img-thumbnail{
+    border:0px;
+}
+@media(max-width:767px){
+    .lala .container .images{
+        padding-right: 0;
+    }
+}
+
+/* boxes */
+.boxes .col-md-6{
+    padding:0px;
+     /* background-color: rgba(0,0,0,1); */
+}
+.boxes .container .row .bok4,
+.boxes .container .row .bok2{
+    background-color: black;
+}
+
+
+@media (max-width:767px){
+    .boxes .container .row .bok4{
+        order:4;
+    }
+    .boxes .container .row .bok2{
+        margin-bottom: 40px;
+    }
+    .boxes .row{
+        padding-left:15px;
+        padding-right: 15px;
+    }
+
+    .boxes .container .row .bok4,
+    .boxes .container .row .bok2{
+        position:relative;
+        top:-1px;
+    }
+
+}
+
+/* contact */
+.contact{
+    background: url(../images/bg-signup.jpg) no-repeat center center scroll;
+    background-size: cover;
+    height: 65vh;
+}
+.contact .overlay{
+    background-color: rgba(0,0,0,0.8);
+}
+.contact i{
+    font-size:35px;
+}
+.contact h2{
+    font-size: 2.5rem;
+}
+.contact form input{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:0px;
+    
+}
+.contact form .form-control:focus{
+    border:0px solid white;
+    box-shadow: 0 0 ;
+}
+.contact form button{
+    background-color: #64a19d;
+}
+@media (max-width:991px) {
+
+    .contact form button{
+        margin-top:16px;
+    }
+}
+
+/* footer */
+
+.footer{
+    background-color: rgba(0,0,0,0.98);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer .item{
+    background-color: white;
+    height: 250px;
+    padding-top:50px;
+    padding-bottom:50px;
+    color:rgba(0, 0, 0, 0.5) ;
+    border-radius: 7px;;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #64a19d;
+}
+.footer .item  i{
+    color:#64a19d;
+    font-size: 22px;
+}
+.footer .item h4{
+    font-weight: normal;
+    font-size: medium;
+}
+.footer .item hr{
+    width:60px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.5) ;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer .item a{
+    color:#64a19d;
+}
+.footer .contain{
+    margin-top:80px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .contain > i{
+    width:50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgba(151, 150, 150, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#b0b0b0;
+    margin-right:20px;
+    cursor:pointer;
+}
+
+
+/* footer2 */
+.footer2{
+    position:relative;
+    top:-1px;
+    padding-top:50px;
+    padding-bottom: 40px;;
+    background-color: black;
+}
